@@ -65,6 +65,7 @@ select{
     font: normal normal 900 27px/34px Bauhaus Hv BT;
     display: flex;
     justify-content: center;
+    align-items: center;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -208,6 +209,7 @@ button:hover:before{
     text-align: left;
     font: normal normal 900 25px/40px Bauhaus Hv BT;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     color: #8E53F0;
