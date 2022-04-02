@@ -57,32 +57,3 @@ setInterval(clock,1)
             document.getElementById("leftbox2").innerText="Good Night!!";
         } 
     }
-   
-// function settime(){
-
-//     var x=document.getElementById('Morning').value;
-//     console.log(x);
-//     var y = document.getElementById("Afternoon").value;
-//     var z = document.getElementById("Evening").value;
-//     var hour = new Date().getHours();
-//     console.log(hour);
-
-//     if(x==hour){
-
-//         document.getElementById('rightbox3').style.backgroundImage="url('lunch_image.png')"
-//         document.getElementById("rightbox2").innerText='Wake Up !!';
-//         document.getElementById("leftbox2").innerText="Good Morning !!";
-//     }
-
-//     if(y==hour){
-//         document.getElementById("imgcontainer").style.backgroundImage="url(./images/lunch.PNG)"
-//         document.getElementById("textcontainer").innerText="Let's Have Some Lunch !!";
-//         document.getElementById("smallbox").innerText="Good Afternoon !!";
-//     }
-
-//     if(z==hour){
-//         document.getElementById("imgcontainer").style.backgroundImage="url(./images/night.PNG)"
-//         document.getElementById("textcontainer").innerText="Good Night !!";
-//         document.getElementById("smallbox").innerText="Good Night !!";
-//     }    
-// }
