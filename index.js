@@ -57,3 +57,21 @@ setInterval(clock,1)
             document.getElementById("leftbox2").innerText="Good Night!!";
         } 
     }
+    function changetext(){
+        let s = document.getElementById("Morning")
+        let displayMtext = s.options[s.selectedIndex].text
+        document.getElementById("wakeup-time").innerText="Wake Up Time :"+ displayMtext
+
+        let f = document.getElementById("Afternoon")
+        let displayAtext = f.options[f.selectedIndex].text
+        document.getElementById("lunch-time").innerText="Lunch Time :" +displayAtext 
+
+        let g = document.getElementById("Evening")
+        let displayEtext = g.options[g.selectedIndex].text
+        console.log(displayEtext);
+        document.getElementById("nap-time").innerText="Nap Time :"+displayEtext
+
+        let h = document.getElementById("Night")
+        let displayNtext = h.options[h.selectedIndex].text
+        document.getElementById("night-time").innerText="Night Time :"+displayNtext
+    }
