@@ -21,7 +21,7 @@
         <div class="line1">
             <img src="./Images/wake_up.svg" alt="error">
             Set wake up time
-            <select name="Morning" id="Morning">
+            <select name="Morning" id="Morning" onchange="changetext()">
                 <option value="0">Set Time</option>
                 <option value="6">6 AM - 7 AM</option>
                 <option value="7">7 AM - 8 AM</option>
@@ -47,7 +47,7 @@
         <div class="line2">
             <img src="./Images/lunch_time.svg" alt="error">
             Set lunch time
-            <select name="" id="Afternoon">
+            <select name="" id="Afternoon" onchange="changetext()">
                 <option value="0">Set Time</option>
                 <option value="6">6 AM - 7 AM</option>
                 <option value="7">7 AM - 8 AM</option>
@@ -74,7 +74,7 @@
         <div class="line3">
             <img src="./Images/nap_time.svg" alt="error">
             Set nap time
-            <select id="Evening" >
+            <select id="Evening" onchange="changetext()">
                 <option value="0">Set Time</option>
                 <option value="6">6 AM - 7 AM</option>
                 <option value="7">7 AM - 8 AM</option>
@@ -100,7 +100,7 @@
         <div class="line4">
             <span id="icon" class="material-icons-outlined">local_hotel</span>
             Set night time
-            <select name="" id="Night">
+            <select name="" id="Night" onchange="changetext()">
                 <option value="0">Set Time</option>
                 <option value="6">6 AM - 7 AM</option>
                 <option value="7">7 AM - 8 AM</option>
@@ -130,7 +130,10 @@
             <span> Set Alarm! </span>
         </button>
     <div class="leftbox3">
-        Wake Up Time : 10AM - 11AM <br> Lunch Time : 12PM - 1PM <br> Nap Time : 4PM - 5PM <br> Night Time : 8PM-9AM
+        <div id="wakeup-time">Wake Up Time :Set Time</div> 
+        <div id="lunch-time">Lunch Time :Set Time</div>
+        <div id="nap-time">Nap Time :Set Time</div>  
+        <div id="night-time">Night Time :Set Time</div> 
     </div>
     <div class="totalrightbox">
         <div class="rightbox1">
