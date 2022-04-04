@@ -57,6 +57,7 @@ setInterval(clock,1)
             document.getElementById("leftbox2").innerText="Good Night!!";
         } 
     }
+   changetext();
     function changetext(){
         let s = document.getElementById("Morning")
         let displayMtext = s.options[s.selectedIndex].text
